@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 import com.flywire.exercise.model.Employee;
 import com.flywire.exercise.repository.EmployeeRepository;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -58,7 +59,7 @@ public class EmployeeService {
     }
 
     public void addEmployee(Employee employee) throws IOException {
-        List<Employee> employees = employeeRepository.getAllEmployees();
+        List<Employee> employees = new ArrayList<>(employeeRepository.getAllEmployees());
 
         boolean idExists = employees.stream().anyMatch(e -> e.getId() == employee.getId());
         if (idExists) {
