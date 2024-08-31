@@ -10,6 +10,7 @@ public class Employee {
         private String hireDate;
         private boolean active;
         private List<Integer> directReports;
+        private String directReportNames;
 
         public int getId() {
             return id;
@@ -54,4 +55,10 @@ public class Employee {
             this.directReports = directReports;
         }
 
+        public String getDirectReportNames() {
+            return directReportNames;
+        }
+        public void setDirectReportNames(String directReportNames) {
+            this.directReportNames = directReportNames;
+        }
 }
