@@ -27,7 +27,7 @@ public class EmployeeController {
         try {
             List<Employee> employees = employeeService.getActiveEmployeesSortedByLastName();
             return ResponseEntity.ok(employees);
-        } catch (IOException e) {
+        } catch (Exception e) {
             return ResponseEntity.status(500).build();
         }
     }

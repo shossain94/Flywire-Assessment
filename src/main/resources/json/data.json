@@ -1,82 +1,110 @@
 [
     {
-      "id": 1,
-      "name": "Tim Silver",
-      "position": "CEO",
-      "hireDate": "02/09/2001",
-      "active": true,
-      "directReports": [2, 3, 4]
+        "id": 1,
+        "name": "Tim Silver",
+        "position": "CEO",
+        "hireDate": "02/09/2001",
+        "active": true,
+        "directReports": [
+            2,
+            3,
+            4
+        ],
+        "directReportNames": null
     },
     {
-      "id": 2,
-      "name": "Liz Brown",
-      "position": "CFO",
-      "hireDate": "10/12/2009",
-      "active": false,
-      "directReports": []
+        "id": 2,
+        "name": "Liz Brown",
+        "position": "CFO",
+        "hireDate": "10/12/2009",
+        "active": false,
+        "directReports": [],
+        "directReportNames": null
     },
     {
-      "id": 3,
-      "name": "Rob Red",
-      "position": "CTO",
-      "hireDate": "10/12/2011",
-      "active": true,
-      "directReports": [53, 89]
+        "id": 3,
+        "name": "Rob Red",
+        "position": "CTO",
+        "hireDate": "10/12/2011",
+        "active": true,
+        "directReports": [
+            53,
+            89
+        ],
+        "directReportNames": null
     },
     {
-      "id": 4,
-      "name": "Jeff Pink",
-      "position": "CPO",
-      "hireDate": "01/05/2019",
-      "active": true,
-      "directReports": [97]
+        "id": 4,
+        "name": "Jeff Pink",
+        "position": "CPO",
+        "hireDate": "01/05/2019",
+        "active": true,
+        "directReports": [
+            97
+        ],
+        "directReportNames": null
     },
     {
-      "id": 5,
-      "name": "Alex Purple",
-      "position": "Accountant",
-      "hireDate": "10/12/2014",
-      "active": false,
-      "directReports": []
+        "id": 5,
+        "name": "Alex Purple",
+        "position": "Accountant",
+        "hireDate": "10/12/2014",
+        "active": false,
+        "directReports": [],
+        "directReportNames": null
     },
     {
-      "id": 24,
-      "name": "John Beige",
-      "position": "Accountant",
-      "hireDate": "10/12/2018",
-      "active": true,
-      "directReports": []
+        "id": 24,
+        "name": "John Beige",
+        "position": "Accountant",
+        "hireDate": "10/12/2018",
+        "active": true,
+        "directReports": [],
+        "directReportNames": null
     },
     {
-      "id": 53,
-      "name": "Seth Green",
-      "position": "Engineer",
-      "hireDate": "11/06/2016",
-      "active": true,
-      "directReports": []
+        "id": 53,
+        "name": "Seth Green",
+        "position": "Engineer",
+        "hireDate": "11/06/2016",
+        "active": true,
+        "directReports": [],
+        "directReportNames": null
     },
     {
-      "id": 89,
-      "name": "Jennifer Orange",
-      "position": "Engineer",
-      "hireDate": "04/04/2017",
-      "active": true,
-      "directReports": []
+        "id": 89,
+        "name": "Jennifer Orange",
+        "position": "Engineer",
+        "hireDate": "04/04/2017",
+        "active": true,
+        "directReports": [],
+        "directReportNames": null
     },
     {
-      "id": 97,
-      "name": "Tina Yellow",
-      "position": "HR",
-      "hireDate": "05/09/2017",
-      "active": true,
-      "directReports": []
+        "id": 97,
+        "name": "Tina Yellow",
+        "position": "HR",
+        "hireDate": "05/09/2017",
+        "active": true,
+        "directReports": [],
+        "directReportNames": null
     },
     {
-      "id": 129,
-      "name": "Amanda Teal",
-      "position": "Accountant",
-      "hireDate": "10/12/2019",
-      "active": true,
-      "directReports": []
+        "id": 129,
+        "name": "Amanda Teal",
+        "position": "Accountant",
+        "hireDate": "10/12/2019",
+        "active": true,
+        "directReports": [],
+        "directReportNames": null
+    },
+    {
+        "id": 10,
+        "name": "James",
+        "position": "Engineer",
+        "hireDate": "2024-01-08",
+        "active": true,
+        "directReports": [],
+        "directReportNames": null
     }
-  ]
+]
